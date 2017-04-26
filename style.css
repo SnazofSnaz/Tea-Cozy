@@ -1,0 +1,158 @@
+body {
+  background-color: black;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  margin: auto;
+
+}
+
+header {
+  position: fixed;
+  background-color: black;
+
+  width: 100%;
+  height: 69px;
+  display: flex;
+  z-index: 1;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid seashell;
+
+}
+
+header #align {
+
+
+  padding-top: 50px;
+  float: left;
+
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  margin
+
+}
+
+li {
+    display: inline;
+
+}
+
+header img {
+  height: 50px;
+  padding-top: 25px;
+  float: left;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+}
+
+nav {
+
+  display: block;
+}
+
+.missioncontainer {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  position: relative;
+  margin: auto;
+  width: 1200px;
+  height: 700px;
+
+}
+
+.missioncontainer #mission {
+  margin: 0;
+  background: black;
+  width: 1200px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+
+}
+
+.gallery {
+
+  display: flex;
+  position: relative;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 1000px;
+  margin: auto;
+
+}
+
+.containerimage5 img, .container4 img, .container3 img, .container2 img, .container1 img {
+
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+
+}
+
+#containersize {
+  display: inline-flex;
+
+}
+
+.containerlocations {
+
+  height: 500px;
+    width: 1000px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+    display: inline-block;
+
+}
+
+.containerlcations #containerspacing {
+
+justify-content: center;
+
+}
+
+#location1, #location2, #location3 {
+
+  background-color: black;
+  width: 300px;
+  height: auto;
+  margin: 15px 20px;
+  display: inline-block;
+  opacity: 1.0;
+
+  top: 50%;
+  bottom: 50%;
+
+}
+
+.copyrightsize {
+
+  height: 200px;
+  margin-right: 20px;
+  width:auto;
+
+}
+
+#copyrightalign {
+
+  margin-left: 20px;
+  text-align: left;
+
+}
